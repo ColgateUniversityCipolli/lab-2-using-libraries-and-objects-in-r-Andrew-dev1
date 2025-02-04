@@ -11,7 +11,7 @@ code.to.process <- c()
 # iterate through all subdirectories of the artists and take out only the wave files
 for(i in 1:length(subdirects)){
   current <- list.files(subdirects[i])
-  file.indices <- which(str_count(current, pattern = ".wav") == 1)
+  file.indices <- which(grepl("\\.wav$", current))
   wav.files <- current[file.indices]
   shortened <- str_split(subdirects[i], "/", simplify = T)
   album.name <- shortened[4]
@@ -40,7 +40,7 @@ current.file <- name.files[11]
 parts.of.name <- str_split(current.file, "-", simplify = T)
 artist <- parts.of.name[1]
 album <- parts.of.name[2]
-track <- parts.of.name[3]
+track <- sub(".json", "", parts.of.name[3])
 
   #loading in the json file and extracting each item 
 object <- fromJSON(current.file)

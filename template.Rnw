@@ -24,13 +24,13 @@
 \begin{document}
 
 \vspace{-1in}
-\title{Lab XX -- MATH 240 -- Computational Statistics}
+\title{Lab 02 -- MATH 240 -- Computational Statistics}
 
 \author{
-  First Author \\
+  Andrew Li \\
   Affiliation  \\
-  Department  \\
-  {\tt email@domain}
+  Department of Mathematics  \\
+  {\tt ali@colgate.edu}
 }
 
 \date{}
@@ -42,10 +42,11 @@
 This document provides a basic template for the 2-page labs we will complete each week. Here, briefly summarize what you did and why it might be helpful. Provide all the top-line conclusions, but avoid providing \emph{all} the details. Results should be limited to ``we show X, Y, and Z."
 \end{abstract}
 
-\noindent \textbf{Keywords:} What topics does the lab cover concerning class? List 3-4 key terms here, separated by semicolons.
+\noindent \textbf{Keywords:} Cleaning data, extracting and automating data processing 
 
 \section{Introduction}
-Provide an overarching summary of what you're talking about. In this section, you introduce the idea to the reader, and your goal is to pull them in. What's the mystery you aim to solve?
+
+Music plays such an important role in everyday lives, from creating social spaces, providing an outlet, and connecting people throughout the world. As a result, the works of different artists can be traced to find influence from older generations or their peers. The song Allen Town by Front Bottoms and Manchester Orchestra has influence from the two bands and All Get Out, so this lab seeks to explore what elements are similar and who overall has contributed the most to the creation of this song. To do this, 
 
 You want to provide enough background to understand the context of the work. Specifically, what is the question you are addressing? If it applies, describe what information currently exists about this problem, including citations, and explain how the question you're answering complements this work.
 
