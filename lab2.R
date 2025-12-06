@@ -25,7 +25,7 @@ for(i in 1:length(subdirects)){
     sentence <- paste("streaming_extractor_music.exe ", file.in.sub, str_c(sentence, ".json"))
     
     code.to.process <- append(code.to.process,sentence)
-  }
+  }xx
 }
 #writes in all of the 
 fileConn<-file("batfile.txt")
